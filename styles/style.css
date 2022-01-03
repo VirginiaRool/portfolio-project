@@ -30,6 +30,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  color: var(--third-color);
 }
 
 .hero {
@@ -54,7 +55,7 @@ p {
 
 .btn-branding-outline {
   background-color: none;
-  border-color: var(--main-color);
+  border: 1px solid var(--main-color);
   font-size: 16px;
   color: var(--main-color);
   border-radius: 4px;
@@ -64,6 +65,10 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+img {
+  padding-top: 170px;
 }
 
 @media (max-width: 900px) {
