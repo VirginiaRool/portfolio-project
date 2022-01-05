@@ -67,7 +67,7 @@ p {
   padding: 120px 60px;
 }
 
-.about-section img {
+.content-container img {
   padding-top: 170px;
 }
 
@@ -80,7 +80,8 @@ p {
     font-size: 60px;
   }
 
-  h2 {
+  h2,
+  .hero h2 {
     font-size: 40px;
   }
 
@@ -89,36 +90,47 @@ p {
     text-align: center;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
 }
 
-.about-section {
+.content-container {
   text-align: center;
   padding: 160px 20px;
 }
 
-.about-content {
+.inside-container {
   margin: 30px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-family: var(--heading-font-family);
   color: var(--main-color);
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-weight: bold;
   color: var(--secondary-color);
 }
 
-.about-section img {
+.content-container img {
   max-width: 100%;
   padding: 10px;
   border-radius: 20px;
+}
+
+.inside-container h3 {
+  font-size: 26px;
+  font-weight: 900;
+  color: var(--secondary-color);
+  margin: 0;
+}
+
+.inside-container p {
+  font-size: 14px;
 }
