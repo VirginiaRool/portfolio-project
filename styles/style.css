@@ -139,6 +139,7 @@ nav li {
   line-height: 20px;
   margin-left: 15px;
   font-weight: bold;
+  font-size: 14px;
 }
 
 nav a {
@@ -154,8 +155,8 @@ nav li.active a {
 }
 
 .logo {
-  max-width: 170px;
-  max-height: 31px;
+  max-width: 150px;
+  max-height: 28px;
 }
 
 .logo-small {
