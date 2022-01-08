@@ -113,11 +113,54 @@ p {
   text-decoration: none;
   font-size: 20px;
   color: var(--secondary-color);
-  opacity: 80%; 
+  opacity: 80%;
 }
 
 .contact-container a:hover {
   color: var(--main-color);
+  text-decoration: underline;
+  transition: all 100ms ease-in-out;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0;
+}
+
+nav ul {
+  padding: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 20px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--main-color);
+  text-decoration: underline;
+  transition: all 100ms ease-in-out;
+}
+
+.logo {
+  max-width: 170px;
+  max-height: 31px;
+}
+
+.logo-small {
+  max-width: 100px;
+  max-height: 31px;
 }
 
 @media (max-width: 900px) {
