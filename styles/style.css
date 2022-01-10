@@ -123,24 +123,22 @@ p {
 
 .contact-container h3 {
   color: var(--secondary-color);
+  font-size: 20px;
 }
 
 .contact-container a {
   text-decoration: none;
-  font-size: 20px;
-  color: var(--secondary-color);
-  opacity: 80%;
+  font-size: 18px;
+  color: var(--main-color);
 }
 
 .contact-container a:hover {
-  color: var(--main-color);
   text-decoration: underline;
   transition: all 100ms ease-in-out;
 }
 
 .nav-container {
-  background-color: var(--main-background-color);
-  border-bottom: 1px solid var(--main-color);
+  background-color: var(--secondary-background);
 }
 
 nav {
