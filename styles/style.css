@@ -46,7 +46,7 @@ p {
 .hero {
   background-color: var(--main-background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 130px 20px;
 }
 
 .hero h2 {
@@ -215,8 +215,8 @@ footer .social-links a {
   color: var(--main-color);
   background-color: var(--secondary-background);
   font-size: 30px;
-  padding: 10px 14px;
-  border-radius: 50%;
+  padding: 5px 15px;
+  border-radius: 25%;
 }
 
 footer .social-links a:hover {
