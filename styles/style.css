@@ -83,6 +83,10 @@ p {
   text-align: center;
 }
 
+.content-container {
+  margin-top: 100px;
+}
+
 .content-container img {
   padding-top: 170px;
 }
@@ -139,6 +143,10 @@ p {
 
 .nav-container {
   background-color: var(--secondary-background);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 nav {
@@ -246,5 +254,9 @@ footer h3 {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+
+  .content-container h1 {
+    font-size: 44px;
   }
 }
