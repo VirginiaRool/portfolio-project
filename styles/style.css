@@ -83,6 +83,11 @@ p {
   text-align: center;
 }
 
+.project-image {
+  border-radius: 20px;
+  box-shadow: rgba(89, 37, 76, 0.1) 0px 8px 8px 0;
+}
+
 .content-container {
   margin-top: 100px;
 }
@@ -123,6 +128,10 @@ p {
 
 .inside-container p {
   font-size: 14px;
+}
+
+footer h3 {
+  color: var(--secondary-color);
 }
 
 .contact-container h3 {
